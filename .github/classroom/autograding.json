@@ -3,7 +3,7 @@
     {
       "name": "Test getSize()",
       "setup": "",
-      "run": "mvn -B test -Dtest=PrettySliding2DArrayTest#getSize --file pom.xml",
+      "run": "mvn -B test -Dtest=RotatingBufferInitialTest#getSize --file pom.xml",
       "input": null,
       "output": null,
       "comparison": "exact",
@@ -13,7 +13,7 @@
     {
       "name": "Test negativeSize()",
       "setup": "",
-      "run": "mvn -B test -Dtest=PrettySliding2DArrayTest#negativeSize --file pom.xml",
+      "run": "mvn -B test -Dtest=RotatingBufferInitialTest#negativeSize --file pom.xml",
       "input": null,
       "output": null,
       "comparison": "exact",
@@ -23,7 +23,7 @@
     {
       "name": "Test zeroSize()",
       "setup": "",
-      "run": "mvn -B test -Dtest=PrettySliding2DArrayTest#zeroSize --file pom.xml",
+      "run": "mvn -B test -Dtest=RotatingBufferInitialTest#zeroSize --file pom.xml",
       "input": null,
       "output": null,
       "comparison": "exact",
