@@ -36,7 +36,7 @@ Pour rendre le fonctionnement efficace, il vaut mieux sous-traiter la lecture et
 
 ## Voici le diagramme de classe de la situation initiale :
 
-![Diagramme de classe de la situation initiale](https://github.com/Jean-Aymeric/RotatingBufferStart/blob/master/img/rotatingbuffer.png/classdiagramrotatingbuffer.png)
+![Diagramme de classe de la situation initiale](https://github.com/Jean-Aymeric/RotatingBufferStart/blob/master/img/classdiagramrotatingbuffer.png)
 
 Comme vous pouvez le voir, il n'y a pas de `Main`, mais il y a des tests unitaires.
 
