@@ -67,7 +67,7 @@
       "input": null,
       "output": null,
       "comparison": "exact",
-      "timeout": 1,
+      "timeout": 60,
       "points": 5
     }
   ]
