@@ -28,8 +28,8 @@ class RotatingBufferReadWriteTest {
       RotatingBufferReadWriteTest.WRITTEN_VALUES.add(i);
     }
     for (int i = 0; i < RotatingBufferReadWriteTest.NB_VALUES_WRITTEN; i++) {
-      if (RotatingBufferReadWriteTest.BUFFER.isFull() || !RotatingBufferReadWriteTest.BUFFER.write(
-          RotatingBufferReadWriteTest.WRITTEN_VALUES.get(i))) {
+      if (RotatingBufferReadWriteTest.BUFFER.isFull()
+          || !RotatingBufferReadWriteTest.BUFFER.write(RotatingBufferReadWriteTest.WRITTEN_VALUES.get(i))) {
         i--;
       }
       Thread.sleep(rand.nextInt(RotatingBufferReadWriteTest.READER_WRITER_MAX_SLEEPING_TIME));
@@ -56,8 +56,8 @@ class RotatingBufferReadWriteTest {
       expected.append("[").append(RotatingBufferReadWriteTest.WRITTEN_VALUES.get(i)).append("]\n");
     }
     final StringBuilder actual = new StringBuilder();
-    for (int i = 0; i < this.readValues.size(); i++) {
-      actual.append("[").append(this.readValues.get(i)).append("]\n");
+    for (final Integer readValue : this.readValues) {
+      actual.append("[").append(readValue).append("]\n");
     }
     assertEquals(expected.toString(), actual.toString(), "Test read/write");
     assertEquals(RotatingBufferReadWriteTest.NB_VALUES_WRITTEN, this.readValues.size(), "Test read/write");
