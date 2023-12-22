@@ -23,7 +23,7 @@ traitées par l'ordi).
 C'est ce que l'on appelle un buffer circulaire. C'est un tableau qui se remplit de manière
 circulaire. Une petite image pour illustrer le fonctionnement :
 
-![Illustration du buffer circulaire](https://github.com/Jean-Aymeric/RotatingBufferStart/blob/master/img/classdiagramrotatingbuffer.png)
+![Illustration du buffer circulaire](https://github.com/Jean-Aymeric/RotatingBufferStart/blob/master/img/rotattingbuffer.png)
 
 Le buffer circulaire est un tableau de taille fixe.
 
